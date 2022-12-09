@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+:root{
+    --primary-colour: #99cdce;
+    --background-colour: #d5dbe2;
+    --text-colour: black;
+    --width-break: 600px;
+}
+
+body{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    /* font-family: 'Kalam', cursive; */
+    background-color: var(--background-colour);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px; 
+    
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:var(--primary-colour); 
+    padding: 1rem; 
+    text-align: center;
+    
+}
+
+textarea {
+    width: 80%;
+    height: 20vh;
+    display: block;
+    box-sizing: border-box;
+    margin: 2rem 5rem 1rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: inherit;
+    display: block;
+    
+  }  
+#output{
+    border: 1px solid black;
+    width: 80%;
+    height: 20vh;
+    margin: 0.5rem 5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    overflow: scroll;
+    margin-bottom: 15rem;
+    background-color: white;
+    font: black;
+    font-weight: 550;
+    
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary-colour);
+    margin: 0.5rem 5rem;
+    padding: 1rem 2rem;
+}
+
+main p{
+    color: blue;
+    margin-left: 5rem;
+    font-size: large;
+    font-weight: bolder;
+}
+main video{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    display: block; 
+    position: relative; 
+    
+    overflow: hidden; 
+    border-radius: 50%;
+    
+}
+footer{
+    background-color:var(--primary-colour);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p {
+    max-width: var(--width-break);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.space{
+    padding: 3rem;
+}
